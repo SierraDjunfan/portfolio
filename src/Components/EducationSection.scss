@@ -5,67 +5,67 @@
     flex-direction: column;
     gap: $padding-basic;
     animation: fadeIn 0.4s ease-out;
-  
+
     #education-overview {
-      display: flex;
-      flex-direction: column;
-      gap: $padding-basic / 2;
-  
-      h1 {
-        font-weight: 500;
-        color: $contrast-color;
-        text-decoration: none;
-        font-family: $font-paragraph;
-        font-size: $font-size-normal;
-      }
-  
-      p {
-        font-family: $font-paragraph;
-        font-size: $font-size-paragraph;
-        line-height: 1.5;
-        color: $white-text;
-      }
+        display: flex;
+        flex-direction: column;
+        gap: $padding-basic / 2;
+
+        h1 {
+            font-weight: 500;
+            color: $contrast-color;
+            text-decoration: none;
+            font-family: $font-paragraph;
+            font-size: $font-size-small;
+        }
+
+        p {
+            font-family: $font-paragraph;
+            font-size: $font-size-small;
+            line-height: 1.5;
+            color: $white-text;
+        }
     }
-  
+
     #listed-items {
-  
-      display: flex;
-      flex-direction: column;
-      gap: $padding-basic;
-  
-      h1 {
-        font-weight: 500;
-        color: $contrast-color;
-        font-family: $font-paragraph;
-        font-size: $font-size-normal;
-      }
-  
-      ul {
+
         display: flex;
         flex-direction: column;
         gap: $padding-basic;
-  
-        li {
-          display: flex;
-          flex-direction: column;
-          gap: $padding-basic / 2;
-          background: $color-slight-tint;
-          border-radius: $padding-basic / 2;
-          padding: $padding-basic;
-  
-          h2 {
+
+        h1 {
             font-weight: 500;
-            color: $white-text;
-            font-family: $font-paragraph;
-            font-size: $font-size-normal;
-          }
-  
-          p {
+            color: $contrast-color;
             font-family: $font-paragraph;
             font-size: $font-size-small;
-            color: $white-text;
-          }
         }
-      }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: $padding-basic;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                gap: $padding-basic / 2;
+                background: $color-slight-tint;
+                border-radius: $padding-basic / 2;
+                padding: $padding-basic;
+
+                h2 {
+                    font-weight: 500;
+                    color: $white-text;
+                    font-family: $font-paragraph;
+                    font-size: $font-size-small;
+                }
+
+                p {
+                    font-family: $font-paragraph;
+                    font-size: $font-size-small;
+                    color: $white-text;
+                }
+            }
+        }
     }
-  }
+}

@@ -5,54 +5,55 @@
     display: flex;
     flex-direction: column;
     gap: $padding-basic;
-  
+
     #about-me {
-      display:flex;
-      flex-direction: column;
-      gap: $padding-basic / 4;
-      h3 {
-        font-weight: 500;
-        color: $contrast-color;
-        text-decoration: none;
-        font-family: $font-paragraph;
-        font-size: $font-size-normal;
-      }
-  
-      p {
-        font-family: $font-paragraph;
-        font-size: $font-size-paragraph;
-        line-height: 1.5;
-        color: $white-text;
-      }
-    }
-  
-    ul {
-      display: flex;
-      flex-direction: column;
-      gap: $padding-basic;
-  
-      li {
         display: flex;
         flex-direction: column;
-        gap: $padding-basic / 2;
-        background: $color-slight-tint;
-        border-radius: $padding-basic / 2;
-        padding: $padding-basic;
-  
+        gap: $padding-basic / 4;
+
         h3 {
-          font-weight: 500;
-          color: $white-text;
-          font-family: $font-paragraph;
-          font-size: $font-size-normal;
+            font-weight: 500;
+            color: $contrast-color;
+            text-decoration: none;
+            font-family: $font-paragraph;
+            font-size: $font-size-small;
         }
-  
+
         p {
-          font-family: $font-paragraph;
-          font-size: $font-size-paragraph;
-          line-height: 1.5;
-          color: $white-text;
-          ;
+            font-family: $font-paragraph;
+            font-size: $font-size-small;
+            line-height: 1.5;
+            color: $white-text;
         }
-      }
     }
-  }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: $padding-basic;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            gap: $padding-basic / 2;
+            background: $color-slight-tint;
+            border-radius: $padding-basic / 2;
+            padding: $padding-basic;
+
+            h3 {
+                font-weight: 500;
+                color: $white-text;
+                font-family: $font-paragraph;
+                font-size: $font-size-small;
+            }
+
+            p {
+                font-family: $font-paragraph;
+                font-size: $font-size-small;
+                line-height: 1.5;
+                color: $white-text;
+                ;
+            }
+        }
+    }
+}

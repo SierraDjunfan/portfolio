@@ -18,7 +18,7 @@
     .project-image-link {
         position: relative;
         display: block;
-        width: $project-image-size + 20;
+        width: $project-image-size;
         height: $project-image-size;
         border-radius: $padding-basic;
 
@@ -40,7 +40,7 @@
             align-items: center;
             justify-content: center;
             color: $white-text;
-            font-size: $font-size-normal;
+            font-size: $font-size-small;
             visibility: hidden;
             opacity: 0;
             transition: opacity 0.3s ease;
