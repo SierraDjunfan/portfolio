@@ -79,7 +79,7 @@ export const InterestsSection = () => {
             </div>
         <ul>
             {allInterests.map( item => 
-            <li>
+            <li key={item.title}>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
             </li>)}

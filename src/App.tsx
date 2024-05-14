@@ -42,7 +42,7 @@ function App() {
         <h1>SARA HAYWARD</h1>
         <h2>Front end developer with visual design skills</h2>
         <div id="techs-list">
-          {techs.map( t => <span>{t}</span>)}
+          {techs.map( t => <span key={t}>{t}</span>)}
         </div>
         <div id="greeting">
           <span className="text-emphasis">{greeting}</span><span id='introduction'>{introduction}</span>

@@ -92,7 +92,7 @@ export const ProjectSection = () => {
 
     return (
         <div id="projects-container">
-            {projects.map(p => <div className='project-image-container'>
+            {projects.map(p => <div key={p.projectName} className='project-image-container'>
                 <a target="_blank" href={p.projectLink} className="project-image-link">
                     <img src={p.image} alt={p.projectName} />
                     <div className="project-image-overlay">
@@ -110,11 +110,11 @@ export const ProjectSection = () => {
                         </div>
                         <div>
                             <h4>MY EXPERIENCE</h4>
-                            {p.description.learning.map(point => <p>{point}</p>)}
+                            {p.description.learning.map(point => <p key={point}>{point}</p>)}
                         </div>
                         <div>
                             <h4>OUTCOME</h4>
-                            {p.description.outcome.map(point => <p>{point}</p>)}
+                            {p.description.outcome.map(point => <p key={point}>{point}</p>)}
                         </div>
                     </div>
                 </div></div>)}

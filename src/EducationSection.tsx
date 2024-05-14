@@ -90,7 +90,7 @@ export const EducationSection = () => {
                 <h1>ONLINE COURSES</h1>
                 <ul>
                     {allCourseData.map(course =>
-                        <li>
+                        <li key={course.heading}>
                             <h2>{course.heading}</h2>
                             <p>Instructor: {course.instructor}</p>
                             <p>Platform: {course.platform}</p>
