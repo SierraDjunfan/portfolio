@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400|Oswald:300,400,700&display=swap');
+
+//Reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+//Animations
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+//Media Queries
+
+html {
+  font-size: 16px;
+
+  @media (min-width: 320px) {
+    font-size: 14px;
+
+    main {
+      width: 97%;
+    }
+    header {
+      width: 97%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+
+    main {
+      width: 95%;
+    }
+    header {
+      width: 95%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    font-size: 18px;
+
+    main {
+      width: 85%;
+    }
+    header {
+      width: 85%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 20px;
+
+    main {
+      width: 80%;
+    }
+    header {
+      width: 80%;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    font-size: 22px;
+
+    main {
+      width: 60%;
+    }
+    header {
+      width: 60%;
+    }
+  }
+}
+
+//Variables
+
+$font-size-smaller: 0.8rem;
+$font-size-small: 0.9rem;
+$font-size-medium: 1rem;
+$font-size-large: 1.1rem;
+$font-size-largest: 2.6rem;
+
+
+
+
+$background-color: #3c4669;
+$color-slight-tint: rgba(30, 28, 28, 0.22);
+$background-color-hover: rgba(30, 28, 28, 0.453);
+$white-text: #f3f5faea;
+$white-hover: #d2ddf6d8;
+$font-paragraph: 'Lato', sans-serif;
+$font-heading: 'Oswald', sans-serif;
+$padding-emphasis: 30px;
+$font-size-very-large: 68px;
+$contrast-color: #ffa858;
+$contrast-color-hover: #dc7414;
+$padding-basic: 20px;
+$font-size-paragraph-large: 28px;
+$color-dark-dimmed: rgba(30, 28, 28, 0.354);
+$font-size-normal: 22px;
+$font-size-paragraph: 18px;
+$font-size-very-small: 14px;
+$project-image-size: 230px;
+
+ul {
+  list-style: none;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $background-color;
+
+  main {
+    margin-top: 20px;
+    margin: auto;
+    flex: 1;
+  }
+}

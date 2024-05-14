@@ -1,0 +1,27 @@
+@import './App.scss';
+
+#contact-container {
+    animation: fadeIn 0.4s ease-out;
+    h1 {
+      margin-top: $padding-basic;
+      font-weight: 500;
+      color: $contrast-color;
+      text-decoration: none;
+      font-family: $font-paragraph;
+      font-size: $font-size-normal;
+    }
+  
+    p {
+      font-size: $font-paragraph;
+      margin-top: $padding-basic;
+      color: $white-text;
+      font-family: $font-paragraph;
+    }
+  
+    a {
+      font-family: $font-paragraph;
+      font-size: $font-size-paragraph;
+      line-height: 1.5;
+      color: $contrast-color;
+    }
+  }

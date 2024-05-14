@@ -1,4 +1,4 @@
-import React from 'react'
+import './InterestsSection.scss'
 
 export const InterestsSection = () => {
 

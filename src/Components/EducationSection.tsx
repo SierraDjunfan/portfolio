@@ -1,3 +1,4 @@
+import './EducationSection.scss'
 export const EducationSection = () => {
 
     const overview = `

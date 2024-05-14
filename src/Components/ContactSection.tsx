@@ -1,3 +1,4 @@
+import './ContactSection.scss'
 export const ContactSection = () => {
 
     return (

@@ -1,8 +1,9 @@
-import minsweeperImage from './/minesweeper.jpg'
-import teamPickerImage from './/teamPicker.jpg'
-import indecisionImage from './/indecision.jpg'
-import tabletopImage from './/tabletop.jpg'
-import gameDev from './/gameDev.jpg'
+import './ProjectsSection.scss'
+import minsweeperImage from '../Assets/minesweeper.jpg'
+import teamPickerImage from '../Assets/teamPicker.jpg'
+import indecisionImage from '../Assets/indecision.jpg'
+import tabletopImage from '../Assets/tabletop.jpg'
+import gameDev from '../Assets/gameDev.jpg'
 
 interface ProjectDescription {
     goal: string,

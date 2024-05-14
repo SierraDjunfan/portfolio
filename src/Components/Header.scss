@@ -1,0 +1,60 @@
+@import './App.scss';
+
+header {
+    padding-top: $padding-emphasis;
+    display: flex;
+    flex-direction: column;
+    gap: $padding-basic;
+    margin: auto;
+
+    h1 {
+        font-family: $font-heading;
+        font-size: $font-size-largest;
+        color: $contrast-color;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    h2 {
+        font-weight: 300;
+        color: $white-text;
+        font-family: $font-paragraph;
+        font-size: $font-size-medium;
+    }
+
+    #greeting {
+        .text-emphasis {
+            color: $contrast-color;
+            font-weight: 500;
+            font-size: $font-size-medium;
+            font-family: $font-paragraph;
+        }
+
+        #introduction {
+            color: $white-text;
+            font-size: $font-size-medium;
+            font-weight: 300;
+            font-family: $font-paragraph;
+            line-height: 1.5;
+        }
+    }
+
+    #techs-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6px;
+
+        span {
+            display: inline-block;
+            font-family: $font-heading;
+            font-weight: 500;
+            background-color: $white-text;
+            color: $background-color;
+            padding: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            font-size: $font-size-large;
+            line-height: 1;
+        }
+    }
+}

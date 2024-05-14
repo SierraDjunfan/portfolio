@@ -1,0 +1,43 @@
+@import './App.scss';
+
+@mixin navigation-button {
+    border: none;
+    font-family: $font-paragraph;
+    font-size: $font-size-medium;
+    font-weight: 500;
+    cursor: pointer;
+    padding: (0.75 * $padding-basic) $padding-basic;
+    user-select: none;
+}
+
+.tabbed-navigation-bar {
+    width: 100%;
+    overflow: hidden;
+    background-color: $color-dark-dimmed;
+    display: flex;
+    margin-top: $padding-basic;
+    margin-bottom: $padding-basic;
+    border-radius: ($padding-basic / 2);
+
+    .navigation-button {
+        @include navigation-button();
+        background-color: transparent;
+        color: #f3f5faea;
+
+        &:hover {
+            background-color: $background-color-hover;
+        }
+    }
+
+    .navigation-button-selected {
+        @include navigation-button();
+        color: $background-color;
+        background-color: $white-text;
+        font-weight: 800;
+
+        &:hover {
+            background-color: $white-hover;
+        }
+
+    }
+}

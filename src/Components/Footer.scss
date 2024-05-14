@@ -1,0 +1,8 @@
+@import './App.scss';
+
+footer {
+    background-color: $color-dark-dimmed;
+    height: $padding-basic * 4;
+    width: 100%;
+    margin-top: $padding-emphasis;
+  }
