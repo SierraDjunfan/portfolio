@@ -29,7 +29,8 @@ export const ProjectSection = () => {
         ],
         outcome: [
             "- I've received good feedback from users competing for high scores.",
-            "- If I were to redo the project, I would revise the code to improve readability, specifically by reducing the number of ternary operators used."
+            "- If I were to redo the project, I would revise the code to improve readability, specifically by reducing the number of ternary operators used.",
+            "- The website is currently not mobile friendly. I am looking to add this in the near future but I have learned the importance of 'responsive as you go'"
         ]
     }
 
