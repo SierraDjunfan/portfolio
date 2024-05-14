@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5b215c4f.css",
-    "main.js": "/portfolio/static/js/main.294551e1.js",
+    "main.js": "/portfolio/static/js/main.600606b3.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/tabletop.jpg": "/portfolio/static/media/tabletop.a0a376fccc2a532d8cc5.jpg",
     "static/media/gameDev.jpg": "/portfolio/static/media/gameDev.68cce20d49032100b2ea.jpg",
@@ -10,11 +10,11 @@
     "static/media/teamPicker.jpg": "/portfolio/static/media/teamPicker.61fb94f72e4defe2e9dc.jpg",
     "index.html": "/portfolio/index.html",
     "main.5b215c4f.css.map": "/portfolio/static/css/main.5b215c4f.css.map",
-    "main.294551e1.js.map": "/portfolio/static/js/main.294551e1.js.map",
+    "main.600606b3.js.map": "/portfolio/static/js/main.600606b3.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b215c4f.css",
-    "static/js/main.294551e1.js"
+    "static/js/main.600606b3.js"
   ]
 }
