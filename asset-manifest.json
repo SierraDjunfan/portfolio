@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.38903ee9.css",
-    "main.js": "/portfolio/static/js/main.490bc824.js",
+    "main.css": "/portfolio/static/css/main.c9626c30.css",
+    "main.js": "/portfolio/static/js/main.69e20dfc.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/tabletop.jpg": "/portfolio/static/media/tabletop.a0a376fccc2a532d8cc5.jpg",
     "static/media/gameDev.jpg": "/portfolio/static/media/gameDev.68cce20d49032100b2ea.jpg",
     "static/media/indecision.jpg": "/portfolio/static/media/indecision.125d0c87193fa1e497e3.jpg",
     "static/media/minesweeper.jpg": "/portfolio/static/media/minesweeper.4b509f1396e94ef8c29c.jpg",
+    "static/media/espanso-builder.png": "/portfolio/static/media/espanso-builder.194aaa0a85be0009a7b4.png",
     "static/media/teamPicker.jpg": "/portfolio/static/media/teamPicker.61fb94f72e4defe2e9dc.jpg",
+    "static/media/describeIt.png": "/portfolio/static/media/describeIt.bef734e173d95e04867f.png",
     "index.html": "/portfolio/index.html",
-    "main.38903ee9.css.map": "/portfolio/static/css/main.38903ee9.css.map",
-    "main.490bc824.js.map": "/portfolio/static/js/main.490bc824.js.map",
+    "main.c9626c30.css.map": "/portfolio/static/css/main.c9626c30.css.map",
+    "main.69e20dfc.js.map": "/portfolio/static/js/main.69e20dfc.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38903ee9.css",
-    "static/js/main.490bc824.js"
+    "static/css/main.c9626c30.css",
+    "static/js/main.69e20dfc.js"
   ]
 }
